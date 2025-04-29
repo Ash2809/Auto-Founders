@@ -35,7 +35,6 @@ def run_cto_agent(startup_idea: str) -> str:
     print(response.content)
     return response
 
-# Example usage (you can remove this in production)
 if __name__ == "__main__":
     
     example_idea = """- **Idea Name:**  PersonaPro
